@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #d3934b, #b31217);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default-weather,
+.clear-sky,
+.broken-clouds,
+.haze {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 83.2%;
+  box-shadow: 5px 10px 8px rgb(31, 31, 31);
+}
+
+.text-container {
+  position: relative;
+  text-align: center;
+  font-size: 1em;
+  line-height: 4em;
+  top: 20%;
+  margin: 3em;
+}
+
+.weather-Card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: #0f0c29;
+  color: white;
+  margin: 0%;
+  height: 70%;
+
+  padding: 3em;
+  box-shadow: 5px 10px 8px rgb(31, 31, 31);
+}
+
+.weather-form {
+  position: relative;
+  margin-bottom: 4.5em;
+}
+
+.weather-form input {
+  border: none;
+  border-bottom: 1px solid #c31432;
+  background: rgba(255, 255, 255, 0);
+  margin: 1em;
+  color: whitesmoke;
+}
+
+button {
+  display: block;
+  margin: 1em;
+  margin-top: 2em;
+  padding: 0.6em;
+  background: #c31432;
+  border: none;
+  padding: 1em;
+  border-radius: 5px;
+  color: whitesmoke;
+  margin-bottom: -2.4em;
+}
+
+.weather-info {
+  position: relative;
+  line-height: 2.3em;
+  margin-top: -1em;
+  font-size: 1.08em;
+}
+
+.weather-info p {
+  color: #df2b49;
+}
+
+p span {
+  color: white;
+}
